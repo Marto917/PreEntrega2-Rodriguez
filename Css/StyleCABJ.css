@@ -101,7 +101,7 @@ a {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
-/*-----------------FormaParte-------------------*/
+/*--------------FormaParte(Index)----------------*/
 .Formaparte{
     width: 100%;
     height: auto;
@@ -153,7 +153,7 @@ a {
     color: #FFFFFF;
     font-size: 25px;
 }
-/*-------------Preguntas Frecuentes-------------*/
+/*--------PreguntasFrecuentes(Index)----------*/
 .containerpreg{
   display: grid;
   position: relative;
@@ -193,7 +193,6 @@ a {
   background-color: #FFFFFF;
   left: 17%;
   bottom: 75%;
-  
 }
 .pregprinc_pregunta_titulo a{
   display: block;
@@ -209,14 +208,12 @@ a {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 20px;
   margin-top: 0;
-  
 }
 .pregfrec_background{
   background: #fab70094;
   position: absolute;
   width: 75%;
   height: 41em;
-
 }
  .pregsec_preguntas_grid{
   margin: 20px;
@@ -251,7 +248,6 @@ a {
  .pregsec_uno{
   display: flex;
   margin: -15px;
-  
  }
  .pregsec_uno_pregunta{
     height: 30vh;
@@ -333,9 +329,7 @@ a {
   box-shadow: 0 4px #1b1b1b7c;
   margin: 10px;
 }
-
-/*----------------Hacete Socio------------------*/
-
+/*-------------HaceteSocio(Page)-----------------*/
 .volver{
   display: flex;
   justify-content: center;
@@ -452,7 +446,67 @@ a {
   margin-top: 20px;
   margin-left: 10px;
 }
-/*----------------------------------------------*/
+/*---------------------LoginPage--------------------*/
+.containerlogin{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 25em;
+  height: auto;
+  
+}
+.login{
+  text-align: center;
+  margin: 0.6em;
+  color: #Ffffff;
+}
+.login-check{
+  text-align: initial;
+}
+.checkbox{
+  margin-top: 0.5em;
+}
+.login-titulo h1{
+  font-family: College;
+  font-size: 2.5em;
+  text-align: center;
+  color: #ffffff;
+}
+.login-titulo-img{
+  display: flex;
+  margin: auto;
+  width: 6em;
+  justify-content: center;
+}
+.login input[type=text],.login input[type=password] {
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: #ffffff71;
+  
+}
+.login input[type=text]:focus,.login input[type=password]:focus {
+  background-color: #fab700c5;
+  outline: none;
+}
+::placeholder{
+  color: #FFFFFF;
+}
+.login-iniciarsesion{
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-top: 0.4em;
+}
+.login-iniciarsesion a{
+  font-family: Rextro;
+}
+.login-ayuda h2{
+  font-size: 0.8em;
+  color:#FFFFFF;
+}
+
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /*----------------------------------------------*/
