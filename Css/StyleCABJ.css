@@ -334,6 +334,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 20px;
+  margin-bottom: 40px;
 }
 .iniciohacetesocio{
   width: 100%;
@@ -507,7 +508,64 @@ a {
   color:#FFFFFF;
 }
 
-/*----------------------------------------------*/
+/*-------------------Sede(Pag)------------------*/
+.containersede ul{
+  list-style-image: url(../Media/CirculoLista.png);
+}
+.sede-title{
+  font-family: College;
+  font-size: 3em;
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 20px;
+}
+.sede-lista li h2{
+  margin: 0;
+  font-size: 1.3em;
+  color: #FFFFFF;
+}
+.sede-lista li h1{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+.sede-derecha{
+  margin-bottom: 50px;
+}
+.sede-izquierda{
+  margin-bottom: 50px;
+}
+.sede-izquierda img{
+  margin: 20px;
+  width: 62%;
+  height: 37%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.sede-izquierda img:hover{
+  transform: scale(0.9);
+}
+.sede-derecha img{
+  width: 80%;
+  margin-left: 4em;
+}
+.sede-comollegar{
+  margin-top: 100px;
+}
+.sede-comollegar iframe{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+}
+.sede-comollegar p{
+  text-align: center;
+  font-size: 4em;
+  font-family: College;
+  color: #FFFFFF;
+  margin: 0;
+}
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /*----------------------------------------------*/
