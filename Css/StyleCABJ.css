@@ -101,6 +101,16 @@ a {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+/*-----------------Opciones(Index)---------------*/
+.containeroptions{
+  margin: 60px;
+}
+.options-img{
+  display: flex;
+  width: 19em;
+  margin: 0;
+  justify-content: center;
+}
 /*--------------FormaParte(Index)----------------*/
 .Formaparte{
     width: 100%;
@@ -258,7 +268,7 @@ a {
  .pregsec_uno_img{
     height: 30vh;
     width: 44%;
-    background: url(../Media/PFimages/image\ \(2\).png);
+    background: url(../Media/PFimages/image\ \(2\).webp);
     background-repeat: none;
     background-size: cover;
     padding:2em;
@@ -266,7 +276,7 @@ a {
  .pregsec_dos_img{
   height: 30vh;
   width: 44%;
-  background: url(../Media/PFimages/image\ \(3\).png);
+  background: url(../Media/PFimages/image\ \(3\).webp);
   background-repeat: none;
   background-size: cover;
   padding:2em;
@@ -274,7 +284,7 @@ a {
 .pregsec_tres_img{
   height: 30vh;
   width: 44%;
-  background: url(../Media/PFimages/image\ \(4\).png);
+  background: url(../Media/PFimages/image\ \(4\).webp);
   background-repeat: none;
   background-size: cover;
   padding:2em;
@@ -282,7 +292,7 @@ a {
 .pregsec_cuatro_img{
   height: 30vh;
   width: 44%;
-  background: url(../Media/PFimages/image\ \(5\).png);
+  background: url(../Media/PFimages/image\ \(5\).webp);
   background-repeat: none;
   background-size: cover;
   padding:2em;
