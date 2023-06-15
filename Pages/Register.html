@@ -12,42 +12,44 @@
 <body>
     <div class="containerregister row">
       <!-- Start Volver -->
-    <div class="volver" id="iniciopag">
+    <nav class="volver" id="iniciopag">
       <a href="../Index.html">
           <img src="../Media/Iconmenu.png" alt="iconmenu">
       </a>
-    </div>
+    </nav>
     <!-- Finish Volver -->
 
     <!-- Start Register -->
-    <form action="action_page.php" class="Formregister">
-        <div class="container">
-          <h1>Registrate</h1>
-          <p>Por favor, completa todas las casillas para poder crear tu cuenta.</p>
-          <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" id="email" required>
-      
-          <label for="psw"><b>Contraseña</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-      
-          <label for="psw-repeat"><b>Repita la contraseña</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-          <hr>
-
-          <label for="email"><b>Numero de Socio</b></label>
-          <p>Este numero te lo daran cuando te asocies.</p>
-          <input type="text" placeholder="Enter Socio Number" name="Socio" id="Socio" required>
-      
-          <p>Al registrarte aceptas nuestros <a href="">Terminos y Condiciones</a>.</p>
-          <button type="submit" class="registerbtn">Register</button>
-          <div class="signin">
-            <p>Si ya sos socio podes <a href="">Iniciar Sesión</a>.</p>
-          </div>
-        </div>
-        
-    </form>
+    <header>
+        <form action="action_page.php" class="Formregister">
+            <div class="container">
+              <h1>Registrate</h1>
+              <p>Por favor, completa todas las casillas para poder crear tu cuenta.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          
+              <label for="psw"><b>Contraseña</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          
+              <label for="psw-repeat"><b>Repita la contraseña</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <hr>
+    
+              <label for="email"><b>Numero de Socio</b></label>
+              <p>Este numero te lo daran cuando te asocies.</p>
+              <input type="text" placeholder="Enter Socio Number" name="Socio" id="Socio" required>
+          
+              <p>Al registrarte aceptas nuestros <a href="">Terminos y Condiciones</a>.</p>
+              <button type="submit" class="registerbtn">Register</button>
+              <div class="signin">
+                <p>Si ya sos socio podes <a href="">Iniciar Sesión</a>.</p>
+              </div>
+            </div>
+            
+        </form>
+    </header>
     <!-- Finish Register -->
     
     <!-- Start Footer -->
