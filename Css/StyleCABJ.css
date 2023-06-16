@@ -1,19 +1,19 @@
 /*----------------Css Universal-----------------*/
 @font-face {
   font-family: "CollegeBord";
-  src: url(../Fonts/AtlantaCollegeRegular-1Gva2) format(truetype);
+  src: url(../fonts/collegeregular.ttf) format(truetype);
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "College";
-  src: url(../Fonts/CollegeSlabSC.otf) format(truetype);
+  src: url(../fonts/college.otf) format(truetype);
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Rextro";
-  src: url(../Fonts/REXTRO.otf) format(truetype);
+  src: url(../fonts/rextro.otf) format(truetype);
   font-style: normal;
   font-weight: normal;
 }
@@ -38,7 +38,7 @@ a {
 }
 
 body {
-  background-image: url(../Media/background/la-bombonera.webp);
+  background-image: url(../media/background/la-bombonera.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
