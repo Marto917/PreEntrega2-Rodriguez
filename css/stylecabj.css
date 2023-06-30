@@ -38,7 +38,7 @@ a {
 }
 
 body {
-  background-image: url(../media/background/labombonera.png);
+  background-image: url(../media/background/labombonera.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -472,6 +472,7 @@ hr {
 .info_hacetesocio_img {
   margin: 20px;
   margin-bottom: 0px;
+  width: 90%;
 }
 
 .info_hacetesocio_iframe {
@@ -502,6 +503,7 @@ hr {
 .pasosaseguir_uno_text h2 {
   color: #FFFFFF;
   font-size: 1em;
+  width: 75%;
 }
 
 .pasosaseguir_uno {
